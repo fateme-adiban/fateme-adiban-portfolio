@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 15px;
+  gap: 40px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #e6e6e1;
+  font-weight: 400;
+  position: relative;
+}
+
+.footer a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 1.5px;
+  background-color: #e6e6e1;
+  margin-top: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.2s linear;
+}
+
+.footer a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer a::after {
+    display: none;
+  }
+}
