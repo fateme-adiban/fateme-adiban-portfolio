@@ -16,5 +16,7 @@
 @media (max-width: 640px) {
   .link .indicator {
     left: -20px;
+    width: 5px;
+    height: 5px;
   }
 }
