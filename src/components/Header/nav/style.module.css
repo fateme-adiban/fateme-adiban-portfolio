@@ -1,7 +1,3 @@
-:root {
-  --vh: 1vh;
-}
-
 .menu {
   height: calc(var(--vh, 1vh) * 100);
   background-color: #5c5955;

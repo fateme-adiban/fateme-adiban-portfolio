@@ -4,6 +4,10 @@
   --font-dm-mono: "DM Mono", monospace;
 }
 
+:root {
+  --vh: 1vh;
+}
+
 * {
   margin: 0;
   padding: 0;
