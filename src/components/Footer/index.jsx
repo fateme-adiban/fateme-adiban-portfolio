@@ -25,7 +25,7 @@ export default function index() {
             <h2 className="font-extrabold text-[60px] lg:text-[100px] leading-[100%] 2xl:text-[150px] text-center">GET IN TOUCH</h2>
           </div>
 
-          <motion.div style={{ x }} className={styles.buttonContainer}>
+          <motion.div style={{ x }} className={styles.buttonContainer} onClick={() => (window.location.href = "https://www.linkedin.com/in/fateme-adiban")}>
             <Rounded backgroundColor="#76746F" className={styles.button}>
               <p className="font-medium text-[15px] md:text-[25px] 2xl:text-[30px]">Get In Touch</p>
             </Rounded>

@@ -35,7 +35,7 @@ const index = () => {
           <div className="flex flex-col xl:self-center">
             <div className="small-frame">
               <Image src="/work-2.png" width={530} height={534} alt="second work's frame" className="rounded-[20px] w-full h-full object-cover brightness-80" />
-              <video src="/videos/2.mp4" autoPlay muted loop />
+              <video src="/videos/2.mp4" autoPlay muted loop onClick={() => (window.location.href = "https://www.plannorium.com/")} className="cursor-pointer" />
             </div>
             <div className="content plannorium">
               <p className="small-title">Plannorium</p>
