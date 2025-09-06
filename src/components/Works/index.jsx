@@ -55,7 +55,7 @@ const index = () => {
               <video src="/videos/3.mp4" autoPlay muted loop />
             </div>
             <div className="content">
-              <p className="small-title">Elodi & Alexandre</p>
+              <p className="small-title">Alexandre</p>
               <div className="flex gap-1">
                 <p className="tag-sm">Design</p>
                 <p className="tag-sm">Development</p>

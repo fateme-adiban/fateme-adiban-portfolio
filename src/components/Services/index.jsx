@@ -35,7 +35,7 @@ const Index = () => {
       <div ref={description} className="text-box services-text">
         <h2 className="font-extrabold text-[60px] 2xl:text-[130px] text-[#e6e6e1]">SERVICES</h2>
         <div className="flex flex-col lg:flex-row gap-30">
-          <p className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[680px] leading-[150%]">
+          <p className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[300px] sm:max-w-[680px] leading-[150%]">
             {phrase.split(" ").map((word, index) => {
               return (
                 <span key={index} className="mask">
@@ -53,7 +53,7 @@ const Index = () => {
       <div className="services-text">
         <h2 className="font-extrabold text-[50px] 2xl:text-[100px] text-[#e6e6e1]">WHAT I DO</h2>
         <div className="flex flex-col xl:flex-row gap-30">
-          <ul className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[400px] sm:max-w-[550px] leading-[150%]">
+          <ul className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[300px] sm:max-w-[550px] leading-[150%]">
             <li>A single page site design</li>
             <li>A single page site development</li>
             <li>A 30-minute training call to debrief you on your new site</li>
