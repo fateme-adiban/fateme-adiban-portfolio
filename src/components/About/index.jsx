@@ -4,7 +4,7 @@ import { slideUp } from "./animation"
 import Rounded from "../../common/RoundedButton"
 
 const index = () => {
-  const phrase1 = "Hi, I'm Fateme, a 21-year-old frontend developer. I help brands and businesses stand out in the digital era."
+  const phrase1 = "Hi, I'm Fateme, a 21-year-old frontend developer. I help brands and businesses stand out from their competitors."
   const phrase2 = "I don’t just write code, I build visually engaging, user-friendly interfaces that align with your brand and leave lasting impressions."
 
   const description = useRef(null)

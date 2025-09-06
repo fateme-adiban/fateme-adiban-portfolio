@@ -8,11 +8,11 @@ const Index = () => {
   const faqs = [
     {
       title: "Web Development",
-      content: "I don’t just build websites, I craft online homes for your brand. Whether you're starting fresh or ready to grow, I will work closely with you to bring your ideas to life."
+      content: "Whether you’re just starting out or ready to grow, I’ll bring your ideas to life. Websites start at $300."
     },
     {
       title: "Web Design",
-      content: "You deserve more than a generic website that looks like everyone else's. I craft designs that are rooted in your story, your voice, your vision."
+      content: "You deserve more than a generic site. I design websites rooted in your story, voice, and vision, starting at $150."
     },
     {
       title: "SEO",
@@ -26,7 +26,7 @@ const Index = () => {
     setActiveIndex(prev => (prev === index ? null : index))
   }
 
-  const phrase = "Empowering brands and businesses with custom web experiences that are memorable and profitable. With a passion for design and development, I take projects from ideation to launch, ensuring a seamless journey that leaves a lasting impact in the digital landscape."
+  const phrase = "One-Pager in a Week: Launch a site that helps you feel legit and sell with deal closer confidence, all on a new-biz budget and in as little as 7 days. I created this offer for founders testing new ideas who want a professional presence without investing $7k+ in full branding and web design."
   const description = useRef(null)
   const isInView = useInView(description)
 
@@ -53,7 +53,11 @@ const Index = () => {
       <div className="services-text">
         <h2 className="font-extrabold text-[50px] 2xl:text-[100px] text-[#e6e6e1]">WHAT I DO</h2>
         <div className="flex flex-col xl:flex-row gap-30">
-          <p className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[400px] sm:max-w-[550px] leading-[150%]">I focus on all things digital and web related. With each of my services, my goal is to deliver an experience that serves a great purpose.</p>
+          <ul className="text-[#e6e6e1] text-[20px] sm:text-[25px] 2xl:text-[30px] font-medium max-w-[400px] sm:max-w-[550px] leading-[150%]">
+            <li>A single page site design</li>
+            <li>A single page site development</li>
+            <li>A 30-minute training call to debrief you on your new site</li>
+          </ul>
           <div className="menu">
             {faqs.map((faq, index) => (
               <div key={index} className={`faq max-w-[85vw] lg:max-w-[700px] border-b-2 border-[#e6e6e1] cursor-pointer transition-all duration-500 py-4 ${activeIndex === index ? "active" : ""}`} onClick={() => toggle(index)}>

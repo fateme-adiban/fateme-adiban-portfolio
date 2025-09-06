@@ -20,10 +20,10 @@ const index = () => {
           <div className="flex flex-col">
             <div className="big-frame">
               <Image src="/work-1.png" width={721} height={758} alt="first work's frame" className="rounded-[20px] w-full h-full object-cover brightness-80" />
-              <video src="/videos/1.mp4" autoPlay muted loop />
+              <video src="/videos/1.mp4" autoPlay muted loop onClick={() => (window.location.href = "https://izzy-prior.vercel.app/")} className="cursor-pointer" />
             </div>
             <div className="content">
-              <p className="big-title">Elodi & Alexandre</p>
+              <p className="big-title">Izzy Prior</p>
               <div className="flex gap-1">
                 <p className="tag">Design</p>
                 <p className="tag">Development</p>
@@ -55,7 +55,7 @@ const index = () => {
               <video src="/videos/3.mp4" autoPlay muted loop />
             </div>
             <div className="content">
-              <p className="small-title">Alexandre</p>
+              <p className="small-title">Elodi & Alexandre</p>
               <div className="flex gap-1">
                 <p className="tag-sm">Design</p>
                 <p className="tag-sm">Development</p>
